@@ -2,28 +2,30 @@
 class Sctx < Formula
   desc "Token-optimizing command wrapper for AI coding agents"
   homepage "https://synapctx.com/sctx/"
-  version "0.1.0"
+  # No explicit : Homebrew scans it from the archive URL, and
+  #  reports a hardcoded one as redundant. Verified that the
+  # scan yields the right value rather than assumed.
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/synapctx/sctx/releases/download/v0.1.0/sctx_0.1.0_darwin_arm64.tar.gz"
-      sha256 "7759dac0cfdfe23c69bcee7c21b3247fc21f600a32ef5c85828b96a14951b9a7"
+      url "https://github.com/synapctx/sctx/releases/download/v0.2.0/sctx_0.2.0_darwin_arm64.tar.gz"
+      sha256 "a49974f2b5287576484434600da1a465c69d18712fe30558d755039222a80ede"
     end
     on_intel do
-      url "https://github.com/synapctx/sctx/releases/download/v0.1.0/sctx_0.1.0_darwin_amd64.tar.gz"
-      sha256 "e600058775e360b23d6d6ae540ce22cb16081b6aff6eaf4d08c6fb6a65922a1f"
+      url "https://github.com/synapctx/sctx/releases/download/v0.2.0/sctx_0.2.0_darwin_amd64.tar.gz"
+      sha256 "ff836e7517e05e6917a760a5c7ed344218b3ac8b88b49f99857c43938a21013d"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/synapctx/sctx/releases/download/v0.1.0/sctx_0.1.0_linux_arm64.tar.gz"
-      sha256 "0e1aaef7c78ba6f69e0ba2a1721e44d3eac68a86acffcddf2cc753bfae1ba109"
+      url "https://github.com/synapctx/sctx/releases/download/v0.2.0/sctx_0.2.0_linux_arm64.tar.gz"
+      sha256 "a102addb9bc2bc6084c92d63d221e9237288876840379d2020af8ab472c3b1af"
     end
     on_intel do
-      url "https://github.com/synapctx/sctx/releases/download/v0.1.0/sctx_0.1.0_linux_amd64.tar.gz"
-      sha256 "ac10b8f12dd9e191d7a9085955d59a2f644d9d2e4ee3c03a350e7d377ce6270c"
+      url "https://github.com/synapctx/sctx/releases/download/v0.2.0/sctx_0.2.0_linux_amd64.tar.gz"
+      sha256 "a68e2c72b8329402322b123805f1826b241fa82874b56453eb8fd12c19c9397c"
     end
   end
 
