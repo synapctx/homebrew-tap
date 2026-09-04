@@ -9,23 +9,23 @@ class Sctx < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/synapctx/sctx/releases/download/v0.7.4/sctx_0.7.4_darwin_arm64.tar.gz"
-      sha256 "74324fb5371866ed2ca74a19ef31b1f055246a6a4a62ec295333fda1ac549522"
+      url "https://github.com/synapctx/sctx/releases/download/v0.8.0/sctx_0.8.0_darwin_arm64.tar.gz"
+      sha256 "c826b30685869e103502521596afdda5568d1bf757fa4d5c49ba2bb546d74491"
     end
     on_intel do
-      url "https://github.com/synapctx/sctx/releases/download/v0.7.4/sctx_0.7.4_darwin_amd64.tar.gz"
-      sha256 "7e26458d2fdae36995aa6a0d9aac85bf2ba3bb424ac207a620a041877ee67895"
+      url "https://github.com/synapctx/sctx/releases/download/v0.8.0/sctx_0.8.0_darwin_amd64.tar.gz"
+      sha256 "8befdd50a197cae0fff8b7ec803175bd28c5a44b17dee1228a419773842e9eee"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/synapctx/sctx/releases/download/v0.7.4/sctx_0.7.4_linux_arm64.tar.gz"
-      sha256 "9360d98f75e12b17f72423096f23395afc0be08a1180ccc1a5b4a7e7ddd3baed"
+      url "https://github.com/synapctx/sctx/releases/download/v0.8.0/sctx_0.8.0_linux_arm64.tar.gz"
+      sha256 "4ab8edb9cec13d8cca957131a9d1e028ada0a81ed14bf1b22de9717ebcb4fed2"
     end
     on_intel do
-      url "https://github.com/synapctx/sctx/releases/download/v0.7.4/sctx_0.7.4_linux_amd64.tar.gz"
-      sha256 "4be770d7580a7828940690c299b9f74eeeb58c1979cab0f75626c40d55de4ff5"
+      url "https://github.com/synapctx/sctx/releases/download/v0.8.0/sctx_0.8.0_linux_amd64.tar.gz"
+      sha256 "9ac5b1013a055fc7d0fd3ed92eaaa78b12fc2437a0f91c73577031e7a96a6b1f"
     end
   end
 
